@@ -1,0 +1,31 @@
+@import url("./reset.css");
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 30px 60px;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.header__nav-link {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.main__text {
+  font-size: 2.4rem;
+  color: brown;
+  display: grid;
+  align-items: start;
+}
