@@ -23,9 +23,41 @@
   font-size: 1.3rem;
 }
 
-.main__text {
-  font-size: 2.4rem;
-  color: brown;
-  display: grid;
-  align-items: start;
+.main__text1 {
+  font-size: 8.75rem;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.box__img {
+  background-image: url(/img/img1.png.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 800px;
+  position: absolute;
+}
+
+.main__textbox {
+  color: #ffffff;
+  font-size: 1.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.main__button {
+  color: #ffffff;
+  font-size: 0.75rem;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  padding: 13px;
+  width: 160px;
+  height: 44px;
+  top: 190px;
+  left: 680px;
+  position: relative;
+  text-align: center;
 }
